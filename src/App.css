@@ -36,3 +36,63 @@
     transform: rotate(360deg);
   }
 }
+
+
+.home {
+  background-color: #333;
+  color: #fff;
+}
+
+body {
+  background-color: #333;
+  font-family: Helvetica, sans-serif;
+}
+
+a {
+  color: #fff;
+}
+
+.registry {
+  color: #fff;
+}
+
+.registry form {
+  margin-top: 30px;
+  margin-bottom: 30px;
+}
+
+.registry input[type="submit"] {
+  color: #fff;
+  background-color: #333;
+  padding: 10px;
+  border: 2px solid #000;
+}
+
+.registry input[type="text"] {
+  padding: 10px;
+  border: 2px solid #000;
+}
+
+ul {
+  margin-top: 50px;
+  list-style-type: square;
+  max-width: 400px;
+  margin: auto;
+}
+
+ul li {
+  display: flex;
+  justify-content: space-between;
+  padding: 10px;
+  border-bottom: 2px solid #000;
+  align-items: center;
+}
+
+
+
+ul li button {
+  color: #fff;
+  background-color: #333;
+  padding: 10px;
+  border: 2px solid #000;
+}
